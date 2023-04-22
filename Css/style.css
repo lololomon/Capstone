@@ -653,17 +653,11 @@ footer {
     }
 }
 
-
 /* Loc */
 /* number */
 .number {
     background: #f7f9fc;
 }
-
-.containerAll{
-    margin: auto;
-}
-   
 
 .number_box p:first-of-type {
     font-size: 50px;
@@ -680,7 +674,7 @@ footer {
     font-weight: 700;
 }
 
-.number_box {    
+.number_box {
     padding: 2rem;
     background-color: white;
     border: 1px solid #eee;
@@ -692,41 +686,42 @@ footer {
     box-shadow: 1px 4px 6px rgba(190, 190, 190, 0.2);
 }
 
-
 /* AboutUs */
-.aboutUs_Loc{
+.aboutUs_Loc {
     background-image: url("../img/bg.jpg");
-    background-position: center;    
+    background-position: center;
     position: relative;
     background-attachment: fixed;
 }
 
-.aboutUs_overlay{
+.aboutUs_Loc .aboutUs_overlay {
     display: grid;
     position: absolute;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.33));
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.33)
+    );
 }
 
-.middle-section{
+.middle-section {
     max-width: 550px;
     padding: 80px 0;
-    
 }
 
-.section-width{
+.section-width {
     position: relative;
-color: white;
-
+    color: white;
 }
 
-.about_title h2{
+.about_title h2 {
     font-size: 2rem;
 }
 
-.about_title p{
-    padding-top: 20px ;
+.about_title p {
+    padding-top: 20px;
     padding-bottom: 45px;
 }
 
@@ -740,36 +735,42 @@ color: white;
     font-size: 14px;
 }
 
-.btn-about:hover{
+.btn-about:hover {
     color: black;
     text-decoration: none;
     background-color: rgb(221, 220, 220);
 }
 
 /* explore */
+.change-theme .explore {
+    background: var(--theme-dark);
+}
+.change-theme .theme-explore {
+    background: var(--light-bg-color);
+}
 
-.explore_title{
+
+.explore_title {
     text-align: center;
     margin: auto;
     padding: 50px 0;
     line-height: 1.5;
 }
 
-.explore_title p{
+.explore_title p {
     color: #dc4f72;
     margin: 0;
 }
 
-
-.explore_title h2{
+.explore_title h2 {
     font-size: 2.5rem;
 }
 
-.infor_top{
+.infor_top {
     position: relative;
 }
 
-.infor_top p{
+.infor_top p {
     position: absolute;
     padding: 15px;
     background-color: #dc4f72;
@@ -779,7 +780,7 @@ color: white;
     font-weight: 700;
 }
 
-.red{
+.red {
     padding: 5px 16px;
     border-radius: 25px;
     font-size: 13px;
@@ -813,39 +814,43 @@ color: white;
     margin: 10px 10px;
 }
 
-
-
-.infor_top img{
-    border-top-left-radius:     10px;
-    border-top-right-radius:    10px;
-        width: 100%;
-        filter: grayscale(1); 
-transition: all 0.5s;
+.infor_top img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    filter: grayscale(1);
+    transition: all 0.5s;
 }
 
-.explore_infor:hover  img{
-    filter: grayscale(0); 
-
+.explore_infor .know_more {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: all .5s;
 }
 
-.explore_infor:hover .infor_bot a:first-of-type{
+.explore_infor .know_more:hover {
+    text-shadow: 1px 0 0;
+}
+
+.explore_infor:hover img {
+    filter: grayscale(0);
+}
+
+.explore_infor:hover .infor_bot a:first-of-type {
     color: #dc4f72;
 }
 
-
-
 .explore_infor {
     overflow: hidden;
-    border:1px solid rgb(229, 227, 227);
+    border: 1px solid rgb(229, 227, 227);
     margin-top: 10px;
     border-radius: 10px;
     transition: all 0.5s;
 }
 
-.explore_infor:hover{
-transform: translateY(-10px);
-box-shadow: 1px 4px 6px rgba(190, 190, 190);
-
+.explore_infor:hover {
+    transform: translateY(-10px);
+    box-shadow: 1px 4px 6px rgba(190, 190, 190);
 }
 
 .infor_bot a:first-of-type {
@@ -856,32 +861,29 @@ box-shadow: 1px 4px 6px rgba(190, 190, 190);
     transition: all 0.5s;
 }
 
-.know_more{
+.know_more {
     color: #dc4f72;
     font-size: 14px;
 }
 
 /* Q&A */
 
-.QnA{
+.QnA {
     background-color: #f7f9fc;
 }
 
-.QnA-image img{
+.QnA-image img {
     border-radius: 5px;
 }
 
-
-.QnA_right .panel{
+.QnA_right .panel {
     /* margin: 10px; */
-
 }
 
-.QnA-page li{
+.QnA-page li {
     list-style: none;
     position: relative;
 }
-
 
 .faq-page h2 {
     font-size: 20px;
@@ -892,7 +894,7 @@ box-shadow: 1px 4px 6px rgba(190, 190, 190);
     cursor: pointer;
 }
 
-.faq-page p{
+.faq-page p {
     font-size: 16px;
     line-height: 24.5px;
     position: relative;
@@ -901,14 +903,13 @@ box-shadow: 1px 4px 6px rgba(190, 190, 190);
     opacity: 1;
     transform: translate(0, 0);
     margin-top: 14px;
-    z-index: 2; 
+    z-index: 2;
     color: rgb(94, 93, 93);
 }
 
-
 .faq-page ul li {
     background-color: white;
-border-radius: 10px;
+    border-radius: 10px;
     list-style: none;
     position: relative;
     padding: 25px 50px 25px 20px;
@@ -916,8 +917,8 @@ border-radius: 10px;
     margin: 0 0 15px 0;
 }
 
-.faq-page ul li{
-    -webkit-animation-delay: 0.5s ;
+.faq-page ul li {
+    -webkit-animation-delay: 0.5s;
 }
 
 .faq-page ul li i:before,
@@ -925,26 +926,29 @@ border-radius: 10px;
     content: "";
     position: absolute;
     width: 3px;
-    height: 9px; }
+    height: 9px;
+}
 
 .faq-page ul li i:before {
     background-color: black;
-    transform: translate(-2px, 0) rotate(45deg); }
+    transform: translate(-2px, 0) rotate(45deg);
+}
 
 .faq-page ul li i:after {
     background-color: black;
 
-    transform: translate(2px, 0) rotate(-45deg); }
+    transform: translate(2px, 0) rotate(-45deg);
+}
 
-    .faq-page ul li i {
-        position: absolute;
-        transform: translate(-6px, 0);
-        margin-top: 16px;
-        right: 25px;
-        top: 16px;
-    }
+.faq-page ul li i {
+    position: absolute;
+    transform: translate(-6px, 0);
+    margin-top: 16px;
+    right: 25px;
+    top: 16px;
+}
 
-.faq-page ul li input[type=checkbox] {
+.faq-page ul li input[type="checkbox"] {
     position: absolute;
     cursor: pointer;
     width: 100%;
@@ -955,29 +959,30 @@ border-radius: 10px;
     left: 0;
 }
 
-.faq-page ul li input[type=checkbox]:checked ~ p {
+.faq-page ul li input[type="checkbox"]:checked ~ p {
     margin-top: 0;
     max-height: 0;
     opacity: 0;
-    transform: translate(0, 50%); }
-    .faq-page ul li input[type=checkbox]:checked ~ i:before {
-    transform: translate(2px, 0) rotate(45deg); }
-    .faq-page ul li input[type=checkbox]:checked ~ i:after {
-    transform: translate(-2px, 0) rotate(-45deg); }
+    transform: translate(0, 50%);
+}
+.faq-page ul li input[type="checkbox"]:checked ~ i:before {
+    transform: translate(2px, 0) rotate(45deg);
+}
+.faq-page ul li input[type="checkbox"]:checked ~ i:after {
+    transform: translate(-2px, 0) rotate(-45deg);
+}
 
-
-    .QnA .title {
-        font-size: 16px;
+.QnA .title {
+    font-size: 16px;
     line-height: 20px;
     font-weight: 700;
     color: #dc4f72;
     text-transform: uppercase;
     margin-bottom: 5px;
-    }
+}
 
-    .QnA .h2{
-        font-size: 46px;
-        line-height: 1;
-        font-weight: 700;
-    }
-    
+.QnA .h2 {
+    font-size: 46px;
+    line-height: 1;
+    font-weight: 700;
+}
