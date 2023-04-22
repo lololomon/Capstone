@@ -217,57 +217,52 @@ header {
     }
 }
 /* ============= Banner ================ */
-#content{
+#content {
     position: relative;
     z-index: 1;
     overflow: hidden;
-    background-image: linear-gradient(
-        to right,
-        #fff, 
-        rgba(255, 255, 255, 0.92)), 
-        url(../img/banner.jpg) !important ; 
-    background:white;
+    background-image: linear-gradient(to right, #fff, rgba(255, 255, 255, 0.92)),
+        url(../img/banner.jpg) !important ;
+    background: white;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
     padding-top: 5rem;
 }
-.row{
+.row {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    
 }
-.content__left{
+.content__left {
     width: 50%;
 }
-.content__photo{
-    width:50%;
+.content__photo {
+    width: 50%;
 }
-#content .row .content__left h3{
+#content .row .content__left h3 {
     font-size: 3.2rem;
     font-weight: 600;
     line-height: 1;
-
 }
-#content .row .content__left p{
+#content .row .content__left p {
     color: #5a5a5a;
     font-size: 20px;
     line-height: 28px;
     font-weight: 400;
     max-width: 450px;
 }
-.content__left button{
+.content__left button {
     margin-top: 1.5rem;
     background-color: white !important;
-    color:#dc4f72 !important;
+    color: #dc4f72 !important;
 }
-.content__left button:hover{
+.content__left button:hover {
     background-color: #dc4f72 !important  ;
     color: white !important;
 }
-.content__photo img{
+.content__photo img {
     transform: rotate(180deg);
 }
 /* ============= Introduce ================ */
@@ -275,70 +270,65 @@ header {
     background: var(--theme-dark);
 }
 
-#introduce .row{
+#introduce .row {
     padding: 2rem 0;
 }
-#introduce .card{
+#introduce .card {
     background-color: #f7f9fc;
     text-align: center;
     padding: 2rem;
     transition: all 0.5s;
 }
 
-#introduce .card .card-body h4{
+#introduce .card .card-body h4 {
     padding-top: 1rem;
 }
-#introduce .card:hover{
+#introduce .card:hover {
     background-color: white;
     transform: translateY(-20px);
     box-shadow: 0 3px 9px rgba(0, 0, 0, 0.05);
 }
 /* ============= ABOUT ================ */
-#about{
+#about {
     background-color: #f7f9fc;
 }
-.about__content{
+.about__content {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 2rem 0;
-   
 }
-.about__content .title{
+.about__content .title {
     width: 50% !important;
-    
 }
-.about__content .title h3{
-    font-size: 2.2rem; 
-    line-height: 2.5rem ;
-    font-weight: 600 ;
+.about__content .title h3 {
+    font-size: 2.2rem;
+    line-height: 2.5rem;
+    font-weight: 600;
 }
-.about__content .title p{
+.about__content .title p {
     font-size: 1rem;
-    color:#5a5a5a;
+    color: #5a5a5a;
     line-height: 1.8rem;
 }
-.about__content .about__photo{
+.about__content .about__photo {
     width: 50%;
-    
 }
-.about__content .about__photo img{
+.about__content .about__photo img {
     padding-left: rem;
     border-radius: 10px;
     transition: all 0.5s;
     margin-left: 2rem;
     box-shadow: 0 3px 9px rgba(0, 0, 0, 0.05);
-
-    
 }
-.about__content .about__photo img:hover{
+.about__content .about__photo img:hover {
     transform: translateY(-20px);
     box-shadow: 0 3px 9px rgba(0, 0, 0, 0.05);
 }
-#about .about__content .title button{
+#about .about__content .title button {
     background-color: white !important;
 }
-#about .about__content .title button:hover{
+#about .about__content .title button:hover {
     color: white !important;
     background-color: #dc4f72 !important;
 }
@@ -552,6 +542,11 @@ footer {
     color: var(--title-color);
 }
 
+.footer__top h3.title-newsletter {
+    margin-top: 0.3em;
+    margin-bottom: 1em;
+}
+
 .footer__top ul {
     list-style: none;
 }
@@ -575,7 +570,8 @@ footer {
 }
 
 .footer__contact {
-    padding: 2em;
+    margin-top: 0px;
+    padding: 1em;
     background-color: #fff;
     border-radius: var(--card-curve);
     box-shadow: var(--card-box-shadow);
