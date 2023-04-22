@@ -414,6 +414,9 @@ header {
     }
 }
 /* ============= CLIENT ================ */
+.change-theme .client .title h2 {
+    color: var(--title-color);
+}
 .client {
     background-image: linear-gradient(
             to right,
