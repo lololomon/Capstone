@@ -224,7 +224,7 @@ header {
         to right,
         #fff, 
         rgba(255, 255, 255, 0.92)), 
-        url(../image/banner.jpg) !important ; 
+        url(../img/banner.jpg) !important ; 
     background:white;
     background-repeat: no-repeat;
     background-position: center;
@@ -431,7 +431,7 @@ header {
             rgba(247, 249, 252, 0.77),
             rgba(247, 249, 252, 0.77)
         ),
-        url(../image/b2.jpg);
+        url(../img/b2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
